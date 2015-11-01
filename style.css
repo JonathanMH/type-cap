@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  padding: 5% 0;
+}
+
+.row > * {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.row.input {
+  background-color: #FFFEBE;
+}
+
+.row.output {
+  background-color: black;
+}
+
+.input textarea {
+  min-height: 200px;
+  margin: 20px auto;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+textarea:focus {
+    outline-width: 0;
+}
+
+#capture {
+  border: none;
+}
+
+#replay, #reset {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  background: #FFA518;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: 'Slabo 27px', serif;
+  margin: 10px auto;
+}
+
+#reset {
+  background: #F0B75F;
+}
+
+
+
+#replay-content {
+  background: black;
+  font-family: 'Slabo 27px', serif;
+  font-size: 3rem;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+}

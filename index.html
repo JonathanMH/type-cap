@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Type Cap</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row input">
+      <h1>Capture &amp; Replay your Typing</h1>
+      <textarea id="capture"></textarea>
+      <button id="replay">replay</button>
+      <button id="reset">reset</button>
+    </div>
+    <div class="row output">
+      <div id="replay-content"></div>
+    </div>
+  </div>
+<script src="script.js"></script>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Slabo+27px::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+</body>
+</html>
